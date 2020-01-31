@@ -7,18 +7,21 @@ public class UploadInput {
     private String fileName;
     private String base64;
     private String mimeType;
+    
 	/**
 	 * @return the fileName
 	 */
 	public String getFileName() {
 		return fileName;
 	}
+	
 	/**
 	 * @param fileName the fileName to set
 	 */
 	public void setFileName(String fileName) {
 		this.fileName = fileName;
 	}
+	
 	/**
 	 * @return the base64
 	 */
@@ -31,12 +34,14 @@ public class UploadInput {
 	public void setBase64(String base64) {
 		this.base64 = base64;
 	}
+	
 	/**
 	 * @return the mimeType
 	 */
 	public String getMimeType() {
 		return mimeType;
 	}
+	
 	/**
 	 * @param mimeType the mimeType to set
 	 */
